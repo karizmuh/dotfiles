@@ -1,0 +1,17 @@
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+.thumb.png
+
+# Vim #
+# ######################
+.*.sw[a-z]
+*.un~
+Session.vim
+
+# Jekyll #
+# ######################
+_site/*
