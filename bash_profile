@@ -18,7 +18,7 @@ source ~/.git-completion.sh
 # Colors
 export GREP_OPTIONS='--color=auto'
 export CLICOLOR=1;
-export LSCOLORS=fxFxBxDxBxegedabagacaf
+# export LSCOLORS=fxFxBxDxBxegedabagacaf;
 
 # Bash History
 export HISTCONTROL=erasedups

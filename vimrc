@@ -94,12 +94,13 @@ noremap <F1> <nop>
 " == MacVim vs Vim ========================================
 
 if has('gui_macvim') && has('gui_running')
-  "colorscheme molokai
-  colorscheme superman
+  colorscheme molokai
+  "colorscheme superman
   set guifont=Droid\ Sans\ Mono:h11
   set guioptions=egmrt  " Remove the toolbar in MacVim
 else
-  colorscheme superman
+  colorscheme molokai
+  "colorscheme superman
   set mouse=a   " Mouse support
   set t_Co=256
 endif
